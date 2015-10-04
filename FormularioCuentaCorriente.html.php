@@ -31,7 +31,7 @@
 					<input type="text" id="cuenta" name="cuenta" required placeholder="cuenta" maxlength="10" id="cuenta" pattern="[0-9]{10}" title="El campo cuenta debe tener 10 dígitos"/>
 				 	</td>
  
-				<td><button class="boton-envio" type="submit">Enviar datos</button> 
+				<td><button class="boton-envio" type="submit">Comprobar datos</button> 
 				</td>
 			</tr>
 	</table>
