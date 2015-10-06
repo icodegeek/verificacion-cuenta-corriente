@@ -11,7 +11,7 @@
 		$nDC = $_POST['nDC'];
 		$nNumCuenta = $_POST['nNumCuenta'];
 
-		$codigoCuentaCliente = $nEntidad . ' - ' . $nOficina . ' - ' . $nDC . ' - ' . $nNumCuenta;
+		$codigoCuentaCliente = $nEntidad . "-" . $nOficina . "-" . $nDC . "-" . $nNumCuenta;
 
 		include 'validacion.html.php';
 

@@ -31,7 +31,20 @@
 	<title>Verificación de Cuenta Corriente Cliente</title>
 </head>
 <body>
-	<p>El número de cuenta corriente <?=$codigoCuentaCliente?></p>
+	<p>El Nº de Cuenta Corriente: <?=$codigoCuentaCliente?> es 
+	<?php
+
+		if (calculoDC($nEntidad, $nOficina, $nNumCuenta) == $nDC) {
+			
+			echo "<strong>CORRECTO<strong>";
+		
+		}else{
+
+			echo "<strong>INCORRECTO<strong>";
+		}
+
+	?>
+	 </p>
 	
 </body>
 </html>
