@@ -40,7 +40,7 @@
 		
 		}else{
 
-			echo "<strong>INCORRECTO<strong>";
+			echo "<strong>INCORRECTO<strong>, el dígito de control es: " . calculoDC($nEntidad, $nOficina, $nNumCuenta);
 		}
 
 	?>
